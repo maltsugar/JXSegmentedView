@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0479C61C2275B78300BAEBDF /* JXSegmentedView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1908F030226F14E000E03FD5 /* JXSegmentedView.framework */; };
+		0479C61D2275B78300BAEBDF /* JXSegmentedView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1908F030226F14E000E03FD5 /* JXSegmentedView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1908EEAF226F05BA00E03FD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE51226F05BA00E03FD5 /* ViewController.swift */; };
 		1908EEB0226F05BA00E03FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1908EE52226F05BA00E03FD5 /* Assets.xcassets */; };
 		1908EEB1226F05BA00E03FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1908EE53226F05BA00E03FD5 /* LaunchScreen.storyboard */; };
@@ -38,7 +40,6 @@
 		1908EECC226F05BA00E03FD5 /* SpecialCustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE7B226F05BA00E03FD5 /* SpecialCustomizeViewController.swift */; };
 		1908EECD226F05BA00E03FD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE7C226F05BA00E03FD5 /* AppDelegate.swift */; };
 		1908EECE226F05BA00E03FD5 /* JXSegmentedMixcellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908EE7F226F05BA00E03FD5 /* JXSegmentedMixcellDataSource.swift */; };
-		1908F031226F14E000E03FD5 /* JXSegmentedView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1908F030226F14E000E03FD5 /* JXSegmentedView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				0479C61D2275B78300BAEBDF /* JXSegmentedView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1908F031226F14E000E03FD5 /* JXSegmentedView.framework in Frameworks */,
+				0479C61C2275B78300BAEBDF /* JXSegmentedView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
